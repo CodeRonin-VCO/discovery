@@ -1,0 +1,18 @@
+{
+  "name": "discovery",
+  "version": "1.0.0",
+  "description": "Discovery",
+  "keywords": [
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "license": "ISC",
+  "author": "CodeRonin",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/app.js",
+    "start": "node src/app.js"
+  }
+}
