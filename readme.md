@@ -15,7 +15,7 @@ npm i -g npm
 
 Configurer Express JS
 ```
-npm i --save express
+npm i express
 ```
 
 ## Configurer le fichier "package.json"
@@ -27,6 +27,16 @@ script
     "dev": "node --watch src/app.js",
     "start": "node src/app.js"
   }
+```
+
+## Mettre en place le serveur
+```
+TODO:
+
+- importer express
+- Initialiser l'application
+- Ajouter une route "hello"
+- Démarrer le serveur
 ```
 
 
