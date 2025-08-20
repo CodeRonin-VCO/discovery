@@ -57,9 +57,15 @@ Mise en place du routing:
 - Basique: directement depuis la variable "app" de express
 - Avancé: via un objet "Router"
 
+### Paramètres récupérables depuis l'objet "req"
+  - req.params → sement dynamique de la route (":id")
+  - req.query → SearchParams de la requête (clef valeur → "?category=42&minPrice=50&maxPrice=100")
+  - req.body → le corps de la requête (JSON, XML, Données brutes) d'une requête de type "POST, "PUT", ou "PATCH"
+  __ATTENTION !!! Ce dernier point nécessite une configuration (vu plus tard)__
 
 
 
+<br><br><br><br>
 
 # Suppléments
 
